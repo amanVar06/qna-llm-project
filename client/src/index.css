@@ -25,6 +25,11 @@ article {
   gap: 20px;
 }
 
+article h1 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
 article .query-form {
   width: 100%;
 }

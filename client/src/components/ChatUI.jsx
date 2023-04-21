@@ -69,6 +69,7 @@ const ChatUI = () => {
 
   return (
     <article>
+      <h1>Question Answering System with LLM</h1>
       <div className="query-form">
         <label className="query-label" htmlFor="query-input">
           Paste Youtube video URL Here.

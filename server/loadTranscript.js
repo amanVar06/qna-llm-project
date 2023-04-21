@@ -6,7 +6,7 @@ const axios = require("axios");
 
 const { openai } = require("./services/openAI");
 
-const delay = () => new Promise((res) => setTimeout(() => res(), 1500)); // 2000ms
+const delay = () => new Promise((res) => setTimeout(() => res(), 1300)); // 2000ms
 
 async function getTranscriptChunksWithApi() {
   const chunkDir = "./audio";
@@ -39,8 +39,8 @@ async function getTranscriptChunksWithApi() {
           }
         );
 
-        // console.log(apiResponse?.data?.data);
-        // console.log();
+        console.log(apiResponse?.data?.data);
+        console.log();
       } catch (error) {
         console.log("THE ERROR: ", error.message);
       }
