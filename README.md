@@ -4,8 +4,6 @@
 
 The Question Answering System with LLM is a web application that allows users to ask questions related to the content of a YouTube video. The application uses OpenAI's Whisper API to generate transcriptions of YouTube videos, which are stored in a MongoDB database. The transcriptions are then used to generate documents with Langchain, and their embeddings are stored in Pinecone for faster query. The LLM model is used to answer user questions based on the stored documents.
 
-https://user-images.githubusercontent.com/98205162/233610021-4c9a07f3-42c0-414d-9f4a-896609b248e4.mp4
-
 ## Backend
 
 ### Transcription Generation
